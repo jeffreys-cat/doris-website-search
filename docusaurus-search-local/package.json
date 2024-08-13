@@ -1,8 +1,11 @@
 {
-  "name": "@easyops-cn/docusaurus-search-local",
-  "version": "0.30.2",
-  "description": "An offline/local search plugin for Docusaurus v2",
-  "repository": "https://github.com/easyops-cn/docusaurus-search-local",
+  "name": "doris-website-search",
+  "version": "0.30.3",
+  "description": "Local search plugin for Doris website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easyops-cn/docusaurus-search-local.git"
+  },
   "homepage": "https://github.com/easyops-cn/docusaurus-search-local",
   "scripts": {
     "start": "concurrently -k -n client,server \"yarn run start:client\" \"yarn run start:server\"",
